@@ -138,7 +138,7 @@ header{
 .delivery-box-img img{
           width: 60px;
           height: 60px;
-          padding-left: 100px;
+          padding-left: 10px;
           padding-bottom: 30px;
 }
 .delivery-container{
@@ -153,8 +153,10 @@ header{
           justify-content: space-around;
           align-items: center;
           padding: 50px;
+          text-align: center;
           
 }
+
 .hot-deal{
           height: 500px;
           background-color:rgba(229, 84, 115, .10);
