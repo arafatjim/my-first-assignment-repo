@@ -4,15 +4,44 @@
           font-family: Arial, Helvetica, sans-serif;
 }
 p{
-          color: rgb(39,39,39,.60);
+          
 }
 span{
           color: red;
+}
+input{
+          padding: 20px 200px;
+          display: inline-flex;
+          background: rgb(255, 255, 255);
+          gap: 10px;
+          border: none;
+          border-radius: 10px;
+          margin-top: 20px;
+          color: rgb(39,39,39,.60);
+          
+}
+button{
+          padding: 20px 43px;
+          display: inline-flex;
+          background: red;
+          gap: 10px;
+          border: 10px;
+          border-radius: 10px;
+          margin-top: 20px;
+          color: white;
+          cursor: pointer;
+}
+button:hover{
+          color: white;
+          padding: 25px 45px;
 }
 header{
           width: 100%;
           height: 70vh;
           background-color:rgba(229, 84, 115, .10);
+}
+.btn-primary{
+          padding-left: 250px;
 }
 .header-title{
           width: 500px;
@@ -33,20 +62,11 @@ header{
           margin-bottom: 20px;
           
 }
-button{
-          padding: 20px 43px;
-          display: inline-flex;
-          background: red;
-          gap: 10px;
-          border: 10px;
-          border-radius: 10px;
-          margin-top: 20px;
-          color: white;
-}
+
 .header-img{
           
           padding-right: 100px;
-          padding-top: 0px;
+          padding-top: 19px;
 }
 .flower-tree{
           text-align: center;
@@ -70,17 +90,19 @@ button{
 .flower-box1 img{
           width: 300px;
           height: 300px;
-          margin-top: 100px;
+          margin-top: 80px;
+          padding-bottom: -5px;
 }
 .flower-box2 img{
           width: 300px;
           height: 300px;
-          margin-top: 100px;
+          margin-top: 80px;
+          padding-bottom: 15px;
 }
 .flower-box3 img{
           width: 300px;
           height: 300px;
-          margin-top: 100px;
+          margin-top: 80px;
 }
 .flower-box1{
           background-color:rgba(167, 33, 98, .15);
@@ -122,7 +144,7 @@ button{
 .delivery-container{
           width: 87%;
           height: 200px;
-          background-color:rgba(229, 84, 115, .10);
+          background-color:#e554731a;
           margin-left: 103px;
           
 }
@@ -157,4 +179,63 @@ button{
 }
 .hot-deal-box-title{
           width: 700px;
+}
+.latest-deal{
+          width: 87%;
+          height: 300px;
+          background-image: url('../Rectangle\ 9.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-left: 103px;
+          margin-top: 100px;
+          margin-bottom: 100px;
+}
+.latest-deal{
+          text-align: center;
+          padding-top: 150px;
+}
+.latest-deal-title h1{
+          font-size: 30px;
+}
+
+footer{
+          height: 300px;
+          text-align: center;
+          background-color: black;
+          padding-top: 200px;
+          
+}
+.footer h1{
+          color: white;
+          font-size: 50px;
+          padding-bottom: 20px;
+}
+.footer p {
+          color: white;
+}
+.copy-right{
+          color: #e554731a;
+          padding-top: 30px;
+}
+.instagram-box img{
+          width: 300px;
+          height: 350px;
+}
+.instagram-img{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          gap: -20px;
+}
+.instagram{
+          width: 89%;
+          text-align: center;
+          margin-left: 88px;
+}
+.instagram-title{
+          margin: 80px;
+}
+.instagram-title h1{
+          font-size: 40px;
+          padding-bottom: 20px;
 }
